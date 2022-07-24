@@ -35,6 +35,10 @@ h1 {
   text-align: center;
 }
 
+.job-title {
+  margin: 10px 0;
+}
+
 .social-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,5 +56,15 @@ h1 {
 .social-box li {
   margin: 0 10px;
   font-size: 40px;
+}
+
+.social-box li a:link, .social-box li a:visited, .social-box li a:active {
+  color: #d2dae2;
+}
+
+.social-box li a:hover {
+  color: #808e9b;
+  -webkit-transition: color .2s;
+  transition: color .2s;
 }
 /*# sourceMappingURL=style.css.map */

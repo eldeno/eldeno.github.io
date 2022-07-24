@@ -25,6 +25,10 @@ h1 {
   text-align: center;
 }
 
+.job-title {
+  margin: 10px 0;
+}
+
 .social-box {
   display: flex;
   justify-content: center;
@@ -40,5 +44,14 @@ h1 {
   li {
     margin: 0 10px;
     font-size: 40px;
+
+    a:link, a:visited, a:active {
+      color: #d2dae2;
+    }
+
+    a:hover {
+      color: #808e9b;
+      transition: color .2s;
+    }
   }
 }
