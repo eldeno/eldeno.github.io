@@ -16,6 +16,10 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0 auto;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 }
 
 // info and social media
@@ -29,6 +33,14 @@ body {
   border-top: 1px solid #d2dae2;
   border-left: 1px solid #d2dae2;
   border-bottom: 1px solid #d2dae2;
+  padding: 30px;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    border-top: 1px solid #d2dae2;
+    border-left: 1px solid #d2dae2;
+    border-right: 1px solid #d2dae2;
+  }
 }
 
 h1 {
@@ -79,4 +91,9 @@ h1 {
   justify-content: center;
   width: 100%;
   background: #d2dae2;
+  padding: 30px;
+
+  @media (max-width: 800px) {
+    height: 100%;
+  }
 }
