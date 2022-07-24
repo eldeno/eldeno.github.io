@@ -15,6 +15,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 10px;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -25,10 +35,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10px;
-  height: 100vh;
-  width: 800px;
-  margin: 0 auto;
+  width: 100%;
+  border-top: 1px solid #d2dae2;
+  border-left: 1px solid #d2dae2;
+  border-bottom: 1px solid #d2dae2;
 }
 
 h1 {
@@ -37,6 +47,10 @@ h1 {
 
 .job-title {
   margin: 10px 0;
+}
+
+.job-title span {
+  margin: 0 10px;
 }
 
 .social-box {
@@ -66,5 +80,23 @@ h1 {
   color: #808e9b;
   -webkit-transition: color .2s;
   transition: color .2s;
+}
+
+.latest-works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: #d2dae2;
 }
 /*# sourceMappingURL=style.css.map */

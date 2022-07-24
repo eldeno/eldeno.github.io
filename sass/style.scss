@@ -12,13 +12,23 @@ body {
 
 .container {
   display: flex;
+  padding: 10px;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+// info and social media
+
+.info {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  height: 100vh;
-  width: 800px;
-  margin: 0 auto;
+  width: 100%;
+  border-top: 1px solid #d2dae2;
+  border-left: 1px solid #d2dae2;
+  border-bottom: 1px solid #d2dae2;
 }
 
 h1 {
@@ -27,6 +37,10 @@ h1 {
 
 .job-title {
   margin: 10px 0;
+
+  span {
+    margin: 0 10px;
+  }
 }
 
 .social-box {
@@ -54,4 +68,15 @@ h1 {
       transition: color .2s;
     }
   }
+}
+
+// latest works
+
+.latest-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #d2dae2;
 }
