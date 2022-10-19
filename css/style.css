@@ -2,6 +2,7 @@
   --slate-100: #f1f5f9;
   --slate-300: #cbd5e1;
   --slate-400: #94a3b8;
+  --slate-500: #64748b;
   --slate-900: #0f172a;
 }
 
@@ -14,7 +15,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background: var(--slate-900);
-  color: var(--slate-300);
+  color: var(--slate-500);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +27,8 @@ h2 {
 }
 
 a:link, a:visited {
-  color: var(--slate-300);
+  color: var(--slate-500);
+  transition: all .2s;
 }
 
 a:hover {
